@@ -1,1 +1,1 @@
-Week-12 Portfolio वा # Dynamic Hobby List
+Week-12 Portfolio. Dynamic Hobby List
