@@ -8,7 +8,7 @@ console.log(myName);
 myName = "Pramisha";
 console.log(myName);
 
-const birthYear = 2004;
+const birthYear = 2007;
 console.log(birthYear);
 
 
@@ -110,3 +110,14 @@ myButton.addEventListener("click", function () {
 // Example of changing the color of the h1 tag to blue
 // let titleElement = document.querySelector("#main-title");
 // titleElement.style.color = "blue";
+const hobbies = ['Photography', 'Coding', 'Reading', 'Traveling'];
+const listContainer = document.getElementById('hobby-list');
+const ul = document.createElement('ul');
+
+for (let i = 0; i < hobbies.length; i++) {
+  const li = document.createElement('li');
+  li.textContent = hobbies[i];
+  ul.appendChild(li);
+}
+
+listContainer.appendChild(ul);
